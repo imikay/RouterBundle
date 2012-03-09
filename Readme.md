@@ -48,7 +48,7 @@ Quick example
   or
 
     /**
-     * @Route("/something/{slug}", name="_some_route", defaults = {"_controller"="AcmeDemoBundle:Something:something"} , requirements = {"_host" = "subdomain.example.com" })
+     * @Route("/something/something", name="_some_route",  requirements = {"_host" = "subdomain.example.com" })
      * @Template()
      */
     public function somethingAction()
