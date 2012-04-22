@@ -14,6 +14,9 @@ How to install
 
     router.options.generator_base_class = ITZ\RouterBundle\Component\Routing\Generator\UrlGenerator
     router.options.matcher_dumper_class = ITZ\RouterBundle\Component\Routing\Matcher\Dumper\PhpMatcherDumper
+
+  Add the following line to the autoload.php file
+    'JMS'              => __DIR__.'/../vendor/bundles'
       
   Add one method - getParent to you bundle to make your bundle inherit from Symfony FrameworkBundle, for example
 
