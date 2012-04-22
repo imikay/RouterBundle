@@ -17,7 +17,7 @@ How to install
 
   Add the following line to the autoload.php file
   
-    ```'ITZ'                 => __DIR__.'/../vendor/bundles'```
+    'ITZ'                 => __DIR__.'/../vendor/bundles'
       
   Add one method - getParent to you bundle to make your bundle inherit from Symfony FrameworkBundle, for example
 
